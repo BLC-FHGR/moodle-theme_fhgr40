@@ -1,0 +1,65 @@
+//post is useful for individual rules
+#page-footer {
+    background: #4b92a4;
+    a{
+        color:white;
+        text-decoration: underline;
+    }
+    .third_footer{
+        background-color: white;
+    }
+    .footer_social_block{
+        margin: 2px 2px;
+        a.btn{
+            min-width: 44px;
+            background: #a6821f;
+            border: none;
+        }
+    }
+}
+
+#page-login-index {
+    #page-footer{
+        display: none;
+    }
+}
+
+/*------------------------------------
+  Login page
+  -------------------------------------*/
+  /* Background image -- FHGR */
+  @media screen and (min-width: 600px){
+    #page-login-index {
+        #page{
+            background: url([[pix:theme|login_whilenotworking]]);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+      }    
+  }
+  
+  /* Dropdown manuelles login -- FHGR */
+  #dropdown-loginmenu.show {
+    display: contents;
+}
+
+.login-form-submit{
+    button {
+        display: block;
+    }
+}
+
+/* Login logo for corporate design -- FHGR */
+#loginlogoheader.card-header {
+    background-color: #fff;
+    padding: 3rem;
+}
+
+/*------------------------------------
+  Nav bar
+  -------------------------------------*/
+
+ #navuserfullname.usertext {
+    color: #4b92a4;
+    font-size: large;
+}
