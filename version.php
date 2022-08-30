@@ -16,5 +16,5 @@ $plugin->component = 'theme_fhgr40';
                                                                                                                                     
 // This is a list of plugins, this plugin depends on (and their versions).                                                          
 $plugin->dependencies = [                                                                                                           
-    'theme_boost' => '2016102100'                                                                                                   
+    'theme_boost' => '2022041900'                                                                                                   
 ];
